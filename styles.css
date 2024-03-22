@@ -1,0 +1,111 @@
+
+: {
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Navbar Styles */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  background-color: gray;
+}
+
+.logo img {
+  width: 100px; /* Adjust width as needed */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+  transform: scaleX(0);
+  transition:0.2;
+  color:orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  display: block;
+}
+
+.dropdown-content li a {
+  color: #333; /* Change as needed */
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Main Section Styles */
+.main-section {
+  padding: 20px;
+}
+
+.section-content {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto;
+  text-align: left; /* Align text to the left */
+}
+
+.main-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.Masterplan{
+  text-align: center;
+}
+
+/* Tambahkan CSS untuk mengatur tata letak */
+.Marketing {
+  display: flex;
+  align-items: center;
+}
+
+.Marketing img {
+  margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks */
+}
+
+.footer {
+  background-color: #333; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+  color: white; /* Sesuaikan dengan warna teks yang diinginkan */
+  text-align: center;
+  padding: 20px 0; /* Sesuaikan dengan padding yang diinginkan */
+}
+
+.footer p {
+  margin: 0;
+}
+
